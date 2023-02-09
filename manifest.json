@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "XML-Button",
+  "description": "Кнопка для парсинга XML и др. файлов",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "js": [
+        "button.js"
+      ],
+      "matches": [
+        "https://ya.ru/"
+      ]
+    }
+  ]
+}
